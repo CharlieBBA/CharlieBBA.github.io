@@ -1,0 +1,816 @@
+@charset "UTF-8";
+
+body {
+	font-family: source-sans-pro;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #FFFFFF;
+	padding-bottom: 30px;
+}
+
+header {
+	width: 100%;
+	height: 25%;
+	background-color: #232a5e;
+	border-bottom: 1px solid #2C9AB7;
+}
+img {
+	width: 15%;
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.sponsors
+
+nav {
+	float: right;
+	width: 75%;
+	font-size: 100px;
+	text-align: right;
+	margin-right: 0px;
+}
+header nav ul {
+	list-style: none;
+	float: center;
+}
+nav ul li {
+	float: left;
+	color: #FFFFFF;
+	font-size:300%;
+	text-align: center;
+	margin-right: 40px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+	margin-top: 150px
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #2C9AB7;
+}
+.hero_header {
+	color: #2C9AB7;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	letter-spacing: 10px;
+	font-size: 50px;
+	
+}
+
+.hero {
+	background-image:url(https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/13178929_124767014600574_331814470313435109_n.jpg?_nc_cat=111&oh=7ebfc7659b3988f673e392c995c74001&oe=5C4BC253);
+	background-size: cover;
+	padding-top: 130px;
+	padding-bottom: 380px;
+	background-position: center;
+	
+}
+
+body {
+background-image:url(https://cdn.pixabay.com/photo/2017/05/28/14/59/boule-2351201_960_720.jpg);
+}
+
+form {
+  
+  margin: 0 auto;
+  width: 400px;
+
+ 
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+ 
+  font: 1em sans-serif;
+
+  
+  width: 300px;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  
+  border-color: #000;
+}
+
+textarea {
+ 
+  vertical-align: top;
+
+  
+  height: 5em;
+
+  
+  resize: vertical;
+}
+
+.button {
+  
+  padding-left: 90px; 
+}
+
+button {
+  margin-left: .5em;
+}
+
+.tagline {
+	text-align: center;
+	color: #2C9AB7;
+	margin-top: 110px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 50px;
+	font-weight:bold;
+
+}
+.text_column {
+	width: 29%;
+	text-align: center;
+	font-weight: lighter;
+	line-height: 30px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #A3A3A3;
+}
+.about {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 35px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	margin-top: px;
+}
+
+.stats {
+	color: #717070;
+	margin-bottom: 5px;
+}
+.gallery {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #FFFFFF;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	margin-top: -5px;
+	margin-bottom: -5px;
+}
+
+.thumbnail {
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+}
+.gallery .thumbnail h4 {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	color: #52BAD5;
+}
+.gallery .thumbnail p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #A3A3A3;
+}
+
+.banner {
+	background-color: #2D9AB7;
+	height: 300px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	
+}
+
+.bannerdeux {
+	background-color: #202F5D;
+	height: 300px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	
+}
+
+.bannertrois {
+	background-color: #FFFFFF;
+	height: 300px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	
+}
+
+
+
+.parallax {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_description {
+	color: #FFFFFF;
+	text-align: left;
+	padding-right: 120px;
+	width: 30%;
+	float: right;
+	font-weight: lighter;
+	line-height: 30px;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+footer {
+	background-color: #FFFFFF;
+	padding-bottom: 30px;
+
+}
+.footer_column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+footer .footer_column h3 {
+	color: #B3B3B3;
+	text-align: center;
+}
+footer .footer_column p {
+	color: #717070;
+	background-color: #FFFFFF;
+}
+
+.PSFC2K { 
+	width: 300%;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	}
+
+.cards {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 200px;
+}
+footer .footer_column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #FEFEFE;
+	color: #C4C4C4;
+	cursor: pointer;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+.footer_banner {
+	background-color: #B3B3B3;
+	padding-top: 10px;
+	padding-bottom: 20PX;
+	margin-bottom: 0px;
+}
+footer {
+	display: inline-block;
+}
+.hidden {
+	display: none;
+}
+
+.text_contact {width: 29%;
+	font-weight: lighter;
+	line-height: 30px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #A3A3A3;
+
+	}
+
+@media (max-width: 320px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	display: none;
+}
+header nav ul {
+	padding: 0px;
+	float: none;
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.text_column {
+	width: 100%;
+	text-align: justify;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+.parallax {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_description {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 12px;
+	float: center;
+	text-align: center;
+}
+	
+.VIDEO{
+	margin-right:10px;
+	margin-bottom: 0px;
+	margin-left: 12px;
+	float: none;
+	width: 10%;
+		
+	}
+	
+.banner {
+	background-color: #2D9AB7;
+	padding-bottom: -100%;
+}
+	
+.bannerdeux {
+	background-color: #202F5D;
+}
+	
+	.bannertrois {
+		margin-bottom: 10px;
+	}
+	
+.tagline {
+	margin-top: 20px;
+	line-height: 100px;
+}
+.hero_header {
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 80px;
+	text-align: center;
+}
+
+.text_contact {width: 100%;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+
+	}	
+	
+
+}
+
+@media (min-width: 321px)and (max-width: 767px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #043745;
+}
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	overflow: auto;
+	display: inline-block;
+	background: #52bad5;
+}
+header nav ul {
+	padding: 0px;
+	float: none;
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.text_column {
+	width: 100%;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+.parallax {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_description {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 30%;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+.thumbnail {
+	width: 50%;
+}
+.parallax {
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 20%;
+}
+.parallax_description {
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	padding-top: 30px;
+}
+.banner {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+	
+.bannerdeux {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+	
+.bannertrois {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 100px;
+	
+}
+	
+.footer_column {
+	width: 100%;
+}
+
+.text_contact {
+width: 100%;
+	}	
+
+#boules {
+	float: center;
+	width: 200px;
+	max-width: 100%;
+	margin-left: 40%;
+	margin-top:-10%;
+	
+		}
+#Cochonou {
+	float: center; 
+	width : 240px;
+	max-width: 100%;
+	margin-left: 260px;
+	
+	}
+#Ricard {
+	float: center; 
+	width : 240px;
+	margin-top: 40px;
+	max-width: 100%;
+	margin-left: 260px;
+	
+	}
+#Obut {
+	float: center; 
+	width : 240px;
+	margin-top: 70px;
+	max-width: 100%;
+	margin-left: 260px;
+	}
+#PatSeb {
+	float: center; 
+	width : 200px;
+	margin-top: 50px;
+	max-width: 100%;
+	margin-left: 260px;
+	}
+#PSFC2K19 {
+	float: center; 
+	width : 200px;
+	padding-right: 15px;
+	max-width: 100%;
+	}
+
+#Mich {
+	float: left; 
+	width : 120px;
+	padding-right: 0px;
+	margin-left: 50px;
+	margin-bottom: -90px;
+	}
+
+#Pedro {
+	float: left; 
+	width : 120px;
+	padding-right: 0px;
+	margin-left: 50px;
+	margin-bottom: -90px;
+	}
+
+#Alexis {
+	float: left; 
+	width : 120px;
+	padding-right: 0px;
+	margin-left: 50px;
+	margin-bottom: -90px;
+	}
+
+#Papi {
+	float: left; 
+	width : 120px;
+	padding-right: 0px;
+	margin-left: 50px;
+	margin-bottom: -90px;
+	}
+
+#Seb {
+	float: left; 
+	width : 120px;
+	padding-right: 0px;
+	margin-left: 50px;
+	margin-bottom: -90px;
+	}
+	.formulaire {
+	float: center;
+	width : 10%;
+	font-size: 100%;
+	margin-left:20%;
+	font-size: 60%;
+	}
+	
+	
+}
+
+@media ( min-width : 768px ) and (max-width : 1800px ){
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 50%;
+}
+.text_column {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.banner {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+	
+.bannerdeux {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+	
+.text_contact {
+
+	}
+.footer_banner {
+	margin-top: -20px;
+	}
+
+#boules {
+	float: center;
+	margin-left: 40%;
+	width: 300px;
+		}
+#Cochonou {
+	float: center; 
+	width : 200px;
+	margin-left: 18%;
+	max-width: 100%;
+	}
+#Ricard {
+	float: center; 
+	width : 220px;
+	margin-top: 40px;
+	max-width: 100%;
+	}
+#Obut {
+	float: center; 
+	width : 240px;
+	margin-top: 70px;
+	max-width: 100%;
+	}
+#PatSeb {
+	float: center; 
+	width : 200px;
+	margin-top: 50px;
+	max-width: 100%;
+	}
+#PSFC2K19 {
+	float: center; 
+	width : 200px;
+	padding-right: 15px;
+	max-width: 100%;
+	}
+
+#Mich {
+	float: center; 
+	width : 200px;
+	padding-right: 20px;
+	margin-left: 150px;
+	margin-top: auto;
+	}
+
+#Pedro {
+	float: center; 
+	width : 200px;
+	padding-right: 20px;
+	margin-left: 150px;
+	margin-top: auto;
+	}
+
+#Alexis {
+	float: center; 
+	width : 200px;
+	padding-right: 20px;
+	margin-left: 150px;
+	margin-top: auto;
+	}
+
+#Papi {
+	float: center; 
+	width : 200px;
+	padding-right: 20px;
+	margin-left: 150px;
+	margin-top: auto;
+	}
+
+#Seb {
+	float: center; 
+	width : 200px;
+	padding-right: 20px;
+	margin-left: 150px;
+	margin-top: auto;
+	}
+
+	.formulaire {
+	float: right; 
+	width : 10%;
+	font-size: 80%;
+	margin-right: 30%;
+	}
+}
